@@ -15,8 +15,8 @@
  <script src="initiallocation.php"></script>
   <?php
 require __DIR__."/vendor/autoload.php";
-const DEFAULT_URL = 'https://employeetracker-2k20.firebaseio.com/';
-const DEFAULT_TOKEN = 'oPsSz0FIa6hN9XImPvJwwdsMAiThXsxEDY0u2O0d';
+const DEFAULT_URL = '********************************';
+const DEFAULT_TOKEN = '********************************';
 const DEFAULT_PATH = '';
 $firebase = new \Firebase\FirebaseLib(DEFAULT_URL, DEFAULT_TOKEN);
 $emp = array("/HBK","/KnzCTHIsSFdx6sC07RsL2uqLegM2");
@@ -33,7 +33,7 @@ array_push($x4,$lo);
 array_push($na,$ra);
 }
 ?>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCZ0CmJMqF3ydIjn_w5VyJ9hbIeCtz6pw&callback=initMap">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key='Your API KEY'&callback=initMap">
     </script>
 </head>
 
