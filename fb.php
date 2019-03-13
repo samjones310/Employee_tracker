@@ -2,8 +2,8 @@
 $va="/3";
 $va1="latitude";
 require __DIR__."/vendor/autoload.php";
-const DEFAULT_URL = 'https://detial-9ee7b.firebaseio.com';
-const DEFAULT_TOKEN = 'qJnPhqxfU9fED2u1clAZOJrdgrzYEzo3DLJV1bcM';
+const DEFAULT_URL = '********************************';
+const DEFAULT_TOKEN = '********************************';
 const DEFAULT_PATH = '';
 
 $firebase = new \Firebase\FirebaseLib(DEFAULT_URL, DEFAULT_TOKEN);
