@@ -60,7 +60,7 @@ echo $lng;
     }
 }</script>
   <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNpy7jLUyBPI7ASGxhTj-IduUSgOaC-aA&callback=InitDist">
+    src="https://maps.googleapis.com/maps/api/js?key='Your API Key'&callback=InitDist">
     </script>
 </head>
 
