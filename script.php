@@ -90,8 +90,8 @@ var to;
         var infowindow = new google.maps.InfoWindow;
   		  <?php
 require __DIR__."/vendor/autoload.php";
-const DEFAULT_URL = 'https://employeetracker-2k20.firebaseio.com/';
-const DEFAULT_TOKEN = 'oPsSz0FIa6hN9XImPvJwwdsMAiThXsxEDY0u2O0d';
+const DEFAULT_URL = '********************************';
+const DEFAULT_TOKEN = '********************************';
 const DEFAULT_PATH = '';
 $firebase = new \Firebase\FirebaseLib(DEFAULT_URL, DEFAULT_TOKEN);
 $emp = array("/HBK","/KnzCTHIsSFdx6sC07RsL2uqLegM2");
