@@ -90,8 +90,8 @@ var to;
         var infowindow = new google.maps.InfoWindow;
    <?php
 require __DIR__."/vendor/autoload.php";
-const DEFAULT_URL = 'https://employeetracker-2k20.firebaseio.com/';
-const DEFAULT_TOKEN = 'oPsSz0FIa6hN9XImPvJwwdsMAiThXsxEDY0u2O0d';
+const DEFAULT_URL = '********************************';
+const DEFAULT_TOKEN = '********************************';
 const DEFAULT_PATH = '';
 $firebase = new \Firebase\FirebaseLib(DEFAULT_URL, DEFAULT_TOKEN);
 $emp = array("/qFe95xCy7DZgcQqG0REumzJmJui1","/a4lg78oyyRQvsMWbmSThgDModTd2","/SlnROTah3YPy1u8i5FluJ0wpSpg1","/ZcQ34byYdra8pmu7HNY6PyrqyzT2","/W5ud8RkEC2gLJlN17jWa9vsaQaf2","/20GBmVR0bIaE3J0NiageKC8rUrK2","/DW6CkGLEPsMOCMTP6CHk1u1a4Jy1","/LhaOsuyG6Pdt4d9W84vnnr3ol7l2","/l9LxuhdicLWh9jVdX5XDpFg33xR2","/M8glulyV99Y2aJJr8R6Sw9mIQOD2");
