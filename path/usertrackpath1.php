@@ -2,8 +2,8 @@
 <html lang="en">
 <?php
 require __DIR__."/vendor/autoload.php";
-const DEFAULT_URL = 'https://employeetracker-2k20.firebaseio.com/';
-const DEFAULT_TOKEN = 'oPsSz0FIa6hN9XImPvJwwdsMAiThXsxEDY0u2O0d';
+const DEFAULT_URL = '*************************************';
+const DEFAULT_TOKEN = '*************************************';
 const DEFAULT_PATH = '';
 
 $firebase = new \Firebase\FirebaseLib(DEFAULT_URL, DEFAULT_TOKEN);
@@ -58,7 +58,7 @@ $lng1= $firebase->get(DEFAULT_PATH.'/employees_location'.'/a4lg78oyyRQvsMWbmSThg
     }
 }</script>
   <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNpy7jLUyBPI7ASGxhTj-IduUSgOaC-aA&callback=InitDist">
+    src="https://maps.googleapis.com/maps/api/js?key='*************************************'&callback=InitDist">
     </script>
 </head>
 
